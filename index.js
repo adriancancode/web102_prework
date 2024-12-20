@@ -24,10 +24,24 @@ function deleteChildElements(parent) {
 
 // grab the element with the id games-container
 const gamesContainer = document.getElementById("games-container");
+addGamesToPage(GAMES_JSON);
 
 // create a function that adds all data from the games array to the page
 function addGamesToPage(games) {
+    games.forEach((game) => {
+        const game_div = document.createElement("div");
+        game_div.classList.add("game-card");
+        const display = `
+            <img class="game-img" src=${game.img} alt="${game.name} cover page"/>
+            <h3>${game.name}</h3>
+            <p>${game.description}</p>
+        `;
+        game_div.innerHTML = display;
+        gamesContainer.appendChild(game_div);
 
+    });
+
+    
     // loop over each item in the data
 
 
