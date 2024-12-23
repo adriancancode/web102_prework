@@ -2,12 +2,13 @@
 
 body {
     font-family: 'Cabin';
-    background-color: #758190;
+    background-color: #ddcfa4;
 }
 
 #tentacles {
     width: 50px;
 }
+
 
 .header {
     display: flex;
@@ -18,27 +19,48 @@ body {
     margin-right: -10px;
     margin-top: -10px;
 }
+h1 {
+    font-size: 40px;
+}
+h2, p {
+    margin-left: 2rem;
+}
+h2 {
+    margin-top: 3rem;
+    font-size: 2rem
+}
+p {
+    font-size: 1.25rem;
+}
+
+h3 {
+    font-size: 1.75rem;
+}
 
 .stats-container {
     display: flex;
     align-items: center;
-    cursor: pointer;
 }
-.stats-container:hover {
-    box-shadow: 0 0 30px lightblue;
+
+.stats-container > div{
+    transition: box-shadow 0.125s;
+}
+.stats-container > div:hover {
+    cursor: pointer;
+    box-shadow: 0 0 30px #62fff7;
 }
 
 .stats-card {
-    background-color: #a8b0bc;
+    background-color: #c0cbdb;
     border-radius: 7px;
-    padding: 1%;
+    padding: 0.65%;
     margin: 1%;
     width: 100%;
     text-align: center;
 }
 
 #num-contributions, #total-raised, #num-games {
-    font-size: 50px;
+    font-size: 40px;
 }
 
 #games-container {
@@ -60,11 +82,12 @@ body {
     width: 300px;
     text-align: center;
     border-radius: 7px;
+    transition: box-shadow 0.125s;
 }
 
 .game-card:hover {
     cursor: pointer;
-    box-shadow: 0 0 30px lightblue;
+    box-shadow: 0 0 30px #62fff7;
 }
 
 #button-container {
@@ -73,8 +96,19 @@ body {
 
 button {
     font-family: 'Cabin';
+    font-size: 1.25rem;
     border: none;
     padding: 1%;
     margin: 1%;
     border-radius: 7px;
+    transition: box-shadow 0.125s;
+}
+
+button:hover {
+    cursor: pointer;
+    box-shadow: 0 0 30px #62fff7; 
+}
+
+button:active {
+    opacity: 50%;
 }
