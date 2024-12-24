@@ -4,7 +4,7 @@ Submitted by: **Adrian Vazquez**
 
 **Sea Monster Crowdfunding** is a website for the company Sea Monster Crowdfunding that displays information about the games they have funded.
 
-Time spent: **6** hours spent in total
+Time spent: **7** hours spent in total
 
 ## Required Features
 
@@ -19,18 +19,16 @@ The following **required** functionality is completed:
 
 Here's a walkthrough of implemented features:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
-
+[![Video Title](https://img.youtube.com/vi/WEPeNwuxUw4/0.jpg)](https://www.youtube.com/watch?v=WEPeNwuxUw4)
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  
-<!-- Recommended tools:
-[Kap](https://getkap.co/) for macOS
-[ScreenToGif](https://www.screentogif.com/) for Windows
-[peek](https://github.com/phw/peek) for Linux. -->
+Video created with ...  
+* [ ] Screencastify Screen Recorder
 
-## Notes
+## Challenges I have faced in this assignment
 
-Describe any challenges encountered while building the app.
+* [ ] Applying recently learned Javascript methods, including .filter(), .reduce(), and destructuring.
+* [ ] Reviewing cases that are best for using anonymous functions, ternary operators, and spread operators.
+* [ ] Redesigning web page to enhance visual appeal while keeping web accessibility in mind.
 
 ## License
 
